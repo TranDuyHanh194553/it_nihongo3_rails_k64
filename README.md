@@ -4,7 +4,7 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
-key: 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
+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
 
 * Ruby version
 
