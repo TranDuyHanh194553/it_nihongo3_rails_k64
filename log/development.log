@@ -1683,3 +1683,305 @@ Processing by BooksController#new as HTML
 Completed 200 OK in 23ms (Views: 17.8ms | ActiveRecord: 0.2ms | Allocations: 7874)
 
 
+Started GET "/books" for 127.0.0.1 at 2023-01-14 06:11:37 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 3520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 116ms (Views: 92.9ms | ActiveRecord: 0.7ms | Allocations: 26204)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-14 06:11:38 +0000
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 825)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 5962)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:11:43 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 5198)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-14 06:16:04 +0000
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1069)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 10.1ms | ActiveRecord: 0.3ms | Allocations: 7262)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:16:05 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 5225)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:16:07 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.2ms | Allocations: 4571)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-14 06:16:08 +0000
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 829)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.3ms | Allocations: 5964)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:16:09 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 4572)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-14 06:16:10 +0000
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 820)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 0.3ms | Allocations: 5953)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2023-01-14 06:16:12 +0000
+Processing by BooksController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (Duration: 3.0ms | Allocations: 1463)
+  Rendered books/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1798)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 10.1ms | ActiveRecord: 0.2ms | Allocations: 7090)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:16:13 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 4583)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2023-01-14 06:19:35 +0000
+  
+NoMethodError (undefined method `user' for #<ActionDispatch::Routing::Mapper:0x00000000049cb3d8>
+Did you mean?  super):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:22:20 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 500 Internal Server Error in 326ms (ActiveRecord: 1.1ms | Allocations: 136966)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user_path' for #<#<Class:0x000000000358f1f8>:0x000000000354b188>
+Did you mean?  user_show_path):
+    12:   <body>
+    13:     <%= link_to "ホーム", root_path %>
+    14:     <% if user_signed_in? %>
+    15:       <p>こんにちわ, <%= link_to current_user.email, user_path %></p>
+    16:       <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+    17:     <% else %>
+    18:         <b><%= link_to "サインイン", new_user_session_path %></b>
+  
+app/views/layouts/application.html.erb:15
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:23:46 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 5735)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:23:48 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.2ms | Allocations: 4612)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-14 06:23:50 +0000
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3857)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 17.1ms | ActiveRecord: 1.0ms | Allocations: 10978)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:23:51 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.1ms | Allocations: 4597)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:31:19 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.5ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 500 Internal Server Error in 1014ms (ActiveRecord: 0.4ms | Allocations: 136494)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `show_user_path' for #<#<Class:0x00007f29583b4c18>:0x00007f293400aff0>):
+    12:   <body>
+    13:     <%= link_to "ホーム", root_path %>
+    14:     <% if user_signed_in? %>
+    15:       <p>こんにちわ, <%= link_to current_user.email, show_user_path %></p>
+    16:       <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+    17:     <% else %>
+    18:         <b><%= link_to "サインイン", new_user_session_path %></b>
+  
+app/views/layouts/application.html.erb:15
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:34:12 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 49)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 500 Internal Server Error in 512ms (ActiveRecord: 1.4ms | Allocations: 135936)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `show_user_path' for #<#<Class:0x00007f29582bb000>:0x00007f29582b8828>):
+    12:   <body>
+    13:     <%= link_to "ホーム", root_path %>
+    14:     <% if user_signed_in? %>
+    15:       <p>こんにちわ, <%= link_to current_user.email, show_user_path %></p>
+    16:       <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+    17:     <% else %>
+    18:         <b><%= link_to "サインイン", new_user_session_path %></b>
+  
+app/views/layouts/application.html.erb:15
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:38:15 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 1.0ms | Allocations: 10357)
+
+
+Started GET "/user" for 127.0.0.1 at 2023-01-14 06:38:17 +0000
+Processing by UserController#show as HTML
+  Rendering user/show.html.erb within layouts/application
+  Rendered user/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 5219)
+
+
+Started GET "/user" for 127.0.0.1 at 2023-01-14 06:39:49 +0000
+Processing by UserController#show as HTML
+  Rendering user/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/user/show.html.erb:3
+  Rendered user/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 966)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.2ms | Allocations: 5695)
+
+
+Started GET "/user" for 127.0.0.1 at 2023-01-14 06:40:03 +0000
+Processing by UserController#show as HTML
+  Rendering user/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/user/show.html.erb:3
+  Rendered user/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 874)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 4570)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-14 06:40:06 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.3ms | Allocations: 5267)
+
+
+Started GET "/user" for 127.0.0.1 at 2023-01-14 06:40:07 +0000
+Processing by UserController#show as HTML
+  Rendering user/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/user/show.html.erb:3
+  Rendered user/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 875)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 4592)
+
+
+Started GET "/user" for 127.0.0.1 at 2023-01-14 06:40:50 +0000
+Processing by UserController#show as HTML
+  Rendering user/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/user/show.html.erb:4
+  Rendered user/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 967)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 5713)
+
+
